@@ -1,10 +1,10 @@
 @media (max-width: 576px){
-	.section{
-	flex-direction: column;
-	text-align: centre;
-	}
+.section{
+flex-direction: column;
+text-align: centre;
+}
        }
-	@media (max-width: 768px) {
+@media (max-width: 768px) {
   .nav {
     display: none;
     flex-direction: column;
@@ -62,10 +62,10 @@
       z-index: 1000;
       font-size: 40px;
     }
-	nav{
-		display: flex;
-		gap: 24px;
-	}
+nav{
+display: flex;
+gap: 24px;
+}
     nav a {
       text-decoration: none;
       color: white;
@@ -77,9 +77,9 @@
 
     section {
       padding: 5rem 2rem;
-	  display: flex;
-	  flex-wrap: wrap;
-	  gap:20px;
+ display: flex;
+ flex-wrap: wrap;
+ gap:20px;
     }
 
     .home {
@@ -121,11 +121,11 @@
       border-radius: 15px;
       box-shadow: 0 8px 20px rgba(0,0,0,0.05);
       max-width: 1200px;
-	  width:100%;
+ width:100%;
       height: 500px;
       margin-left: auto;
       margin-right: auto;
-	  margin: auto;
+ margin: auto;
       border: 2px solid #90694d;
     }
     .underline {
@@ -277,8 +277,3 @@
       font-size: 1.0rem;
       color: white;
     }
-
-    
-
-
-
