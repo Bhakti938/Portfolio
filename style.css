@@ -4,6 +4,27 @@
 	text-align: centre;
 	}
        }
+	@media (max-width: 768px) {
+  .nav {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 64px;
+    right: 0;
+    background: white;
+    width: 100%;
+    text-align: center;
+    padding: 16px 0;
+  }
+
+  .nav.active {
+    display: flex;
+  }
+
+  .menu-icon {
+    display: block;
+  }
+}
 
 * {
       margin: 0;
@@ -258,5 +279,6 @@
     }
 
     
+
 
 
