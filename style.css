@@ -34,12 +34,12 @@
       display: flex;
       justify-content: space-between;
       align-items: center;
-      padding: 1.5rem 2rem;
+      padding: 16px 32px;
       background: #b1886a;
       position: sticky;
       top: 0;
       z-index: 1000;
-      font-size: 1.2rem;
+      font-size: 40px;
     }
     nav a {
       margin: 0 1.5rem;
@@ -255,3 +255,4 @@
     }
 
     
+
